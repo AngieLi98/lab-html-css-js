@@ -3,4 +3,15 @@ document.getElementById("incrementar").addEventListener('click', function(){
     let suma = parseInt(contador.textContent)
     suma++
     contador.textContent = suma
+
+    if(suma === 10){
+        contador.style.backgroundColor = "blue"
+    }
+})
+
+document.getElementById("decrementar").addEventListener('click', function(){
+    const contador = document.getElementById("contador");
+    let resta = parseInt(contador.textContent)
+    resta--
+    contador.textContent = resta
 })
