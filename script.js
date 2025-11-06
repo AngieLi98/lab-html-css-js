@@ -9,7 +9,7 @@ document.getElementById("incrementar").addEventListener('click', function(){
     }
 })
 
-document.getElementById("decrementar").addEventListener('click', function(){
+document.getElementById("disminuir").addEventListener('click', function(){
     const contador = document.getElementById("contador");
     let resta = parseInt(contador.textContent)
     resta--
